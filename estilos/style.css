@@ -1,0 +1,31 @@
+@charset 'UTF-8';
+
+/* 
+    Paleta de Cores
+    Marrom: #6B4C2E
+    laranja: #EB9C4D
+    Bege: #EEC296
+
+*/
+
+/* Mobile First */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: #EEC296 ;
+}
+section#login {
+    margin: auto;
+    display: block;
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+}
