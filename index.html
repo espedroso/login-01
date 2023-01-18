@@ -16,8 +16,37 @@
                 <!-- Aqui vai a imagem  -->
             </div>
             <div class="form">
-                <h1>Login</h1>
+                <h1>Login <span class="material-icons">
+                    login
+                    </span></h1>
+                
                 <p>Seja Bem-Vindo(a)! Faça o login para acessar o sistema.</p>
+                <form action="login.php" method="post" autocomplete="on">
+
+                   
+                    <div class="campo">
+                        <span class="material-icons">
+                            account_circle
+                            </span>
+                        <label for="ilogin"> Login</label>
+                        <input type="login" name="login" id="ilogin" autocomplete="email">
+                    </div>
+
+                    
+                    <div class="campo">
+                        <span class="material-icons">
+                            lock
+                            </span>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password" >
+                    </div>
+
+                    <input type="submit" value="Acessar" class="acesso">
+                  
+
+                    <a href="senha.html" class="psw">Esqueci a Senha</a>
+
+                </form>
             </div>
         </section>
     </main>
