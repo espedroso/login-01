@@ -67,6 +67,7 @@ div.form > h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #6B4C2E;
+    border-radius: 15px;
     margin-bottom: 10px;
     background-image: linear-gradient(to right, #EB9C4D , transparent);
 }
